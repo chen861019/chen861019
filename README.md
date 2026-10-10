@@ -4,7 +4,7 @@
 
 [English](README.md) · [繁體中文](README.zh-TW.md) · [Portfolio / 中文](https://chen861019.github.io/peian-chen/) · [Portfolio / English](https://chen861019.github.io/peian-chen/en/) · [Email](mailto:chen861019@gmail.com)
 
-I am a **Ph.D. candidate in Electrical Engineering at National Yang Ming Chiao Tung University (NYCU)**, Taiwan. My work brings together embedded firmware, sensing platforms, digital design, and hardware-software integration. My R&D interests include embedded systems, digital IC/FPGA design, edge AI, and intelligent sensing.
+I am Pei An Chen, a **Ph.D. candidate in Electrical Engineering at National Yang Ming Chiao Tung University (NYCU)**, Taiwan. I develop sensing systems and research equipment around the measurement and control needs of experiments. My work includes device firmware, communication interfaces, application software, and data processing to turn research ideas into systems that can be operated and evaluated.
 
 ![Verilog](https://img.shields.io/badge/Verilog-1E4A7A?style=flat-square)
 ![C](https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=white)
@@ -16,7 +16,7 @@ I am a **Ph.D. candidate in Electrical Engineering at National Yang Ming Chiao T
 ![Android](https://img.shields.io/badge/Android-3DDC84?style=flat-square&logo=android&logoColor=white)
 ![FPGA](https://img.shields.io/badge/FPGA-RTL_Design-C63C15?style=flat-square)
 
-I develop end-to-end experimental systems that connect **sensors and actuators**, **embedded firmware**, **mobile or web applications**, and **analysis-ready data**. My repositories span wearable biosensing, electrochemical and microfluidic instruments, automated biological imaging, reduced-gravity control, and FPGA reliability logic.
+I focus on how the parts work together: acquiring and preserving data, controlling devices, and tracing faults when something goes wrong. My current work centers on low-power sensing, BLE device integration, and FPGA logic design. I use measurements, simulation, and technical documentation to explain design decisions and their limits.
 
 ## Engineering Portfolio
 
