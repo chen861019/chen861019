@@ -1,0 +1,76 @@
+# 陳沛安 | Pei An Chen
+
+> 嵌入式生醫感測、研究儀器與 FPGA 系統
+
+[English](README.md) · [繁體中文](README.zh-TW.md) · [個人網站／中文](https://chen861019.github.io/peian-chen/) · [個人網站／英文](https://chen861019.github.io/peian-chen/en/) · [Email](mailto:chen861019@gmail.com)
+
+我是國立陽明交通大學電機工程博士候選人，研究與實作涵蓋嵌入式韌體、感測平台、數位電路與軟硬體整合。研發方向包括嵌入式系統、數位 IC／FPGA、邊緣 AI 與智慧感測。
+
+我從感測器與致動器出發，串接韌體、無線通訊、手機或網頁應用與分析資料，建立可操作的實驗系統。專案涵蓋穿戴式生醫感測、電化學與微流體儀器、生物影像、微重力模擬控制，以及 FPGA 可靠度邏輯。
+
+## 工程領域
+
+| 領域 | 實作內容 | 核心技術 |
+| --- | --- | --- |
+| 穿戴式生醫感測 | 多部位溫度與汗液壓力感測、生理資料同步、裝置歷史紀錄 | Nordic nRF、BLE、MLX90614、Android、Wear OS |
+| 裝置到雲端 | 手機資料擷取、離線儲存、裝置識別、身分驗證與研究儀表板 | Kotlin、Jetpack Compose、Room、Firebase、Flask |
+| 電化學量測 | 可攜式計時安培量測、單鍵流程、TFT 回饋與 SD 紀錄 | EmStat Pico、C/C++、SPI、MethodSCRIPT |
+| 微流體系統 | 幫浦與閥控制、stop-flow 觀測、手機取像與系統整合 | ESP32、PlatformIO、PDMS、微幫浦、Android |
+| 太空與生物實驗 | 定時高解析取像與閉迴路微重力模擬運動平台 | ESP32-S3、OV5640、運動控制、PID |
+| FPGA 與數位系統 | RTL、FSM、記憶體、處理器、HPS-FPGA 介面與自動檢查 | Verilog、Quartus、Qsys、Questa、DE1-SoC |
+
+## 系統設計重點
+
+- **跨層整合：** 韌體、通訊、應用狀態、資料儲存與分析共同設計。
+- **考慮硬體限制：** 納入時序、功耗、記憶體保留、校正、無線行為與實體介面。
+- **以證據驗證：** 分別記錄模擬、編譯、實測與實驗驗證，讓讀者了解各階段的成果與限制。
+- **研究可用性：** 重視可重現擷取、可解讀資料、操作流程與持續維護。
+
+## 精選公開專案
+
+| 專案 | 說明 | 技術 |
+| --- | --- | --- |
+| [ThermoPatch](https://github.com/chen861019/ThermoPatch) | 多節點 BLE 體表溫度平台，整合 Android 視覺化、Firebase 同步與 OTA 韌體更新 | Kotlin、Compose、BLE、Firebase、nRF52840 |
+| [SpaceCellCam](https://github.com/chen861019/SpaceCellCam) | ESP32-S3／OV5640 定時高解析生物取像，包含 LED 輔助照明與 microSD 紀錄 | C++、Python、ESP32-S3、OV5640 |
+| [Space BMC Core RTL](https://github.com/chen861019/Space-BMC-Core-SEMC) | 參數化 Verilog-2001 心跳逾時監測核心，附週期邊界、清除與重新計時檢查 | Verilog、Questa、FPGA |
+| [nRF54L15 MLX90614](https://github.com/chen861019/nRF54L15_MLX90614) | XIAO nRF54L15 紅外線溫度感測韌體與低功耗分析 | C、Zephyr、I2C、BLE |
+| [Galaxy Watch Sensor Monitor](https://github.com/chen861019/GalaxyWatchSensorMonitor) | Samsung 手錶皮膚溫度擷取與研究型感測應用 | Kotlin、Wear OS、Samsung Health Sensor SDK |
+| [資料結構與圖論演算法](https://github.com/chen861019/NYCU-Data-Structures-Graph-Algorithms) | 九份 C 作業：排序、BFS、稀疏矩陣、運算式、Segment Tree、Huffman、MST 與最短路徑，附結果與限制說明 | C、GCC、Python、Graphviz |
+| [台北公車 Live](https://github.com/chen861019/taipei-bus-live) | 開發中的公車即時地圖，包含路線／車牌搜尋、標記聚合、路線匹配與官方快照的短時間位置推估 | JavaScript、Node.js、MapLibre GL JS |
+
+**課程實作典藏：** [NYCU-AFPGA](https://github.com/chen861019/NYCU-AFPGA-Labs) 整理八組 Verilog／DE1-SoC 實驗，涵蓋組合邏輯、FSM、RAM、簡易處理器與 HPS/Qsys 整合。目前 repository 為 **private**，須具存取權限才能查看。
+
+## 研究經驗
+
+| 平台 | 工程貢獻 |
+| --- | --- |
+| 微重力模擬系統 | 雙軸 Random Positioning Machine、多軸嵌入式運動控制、感測與影像整合、即時資料擷取 |
+| 穿戴式 IoT 裝置 | nRF52840 感測節點、BLE 通訊、手機與雲端資料管理、LVGL 裝置介面 |
+| 仿生微流體生醫工程 | 趨溫性／流變性分選、溫度梯度控制、影像式運動分析、自動化資料擷取 |
+
+- **2025：** Texas A&M University 研究發表；北海道大學 RIES-CEFMS Joint Symposium 海報發表。
+- **2024：** CES TTA 臺灣科技新創館參展；DMS (NAIST)-CEFMS (NYCU) Joint Symposium 口頭發表；ICSS 海報發表。
+- **2023：** 未來科技獎；FITI 創新創業激勵計畫入圍。
+- **2021：** 生醫創意構想競賽佳作。
+- **2017-2019：** 機器人與 AIoT 競賽經驗，包括 AIoT 智慧機器人、愚公移山與物聯網智慧控制社群成果發表第一名。
+
+[完整網站](https://chen861019.github.io/peian-chen/#research) 保留各項競賽明細與 *Biosensors & Bioelectronics*、*Sensors and Actuators A* 期刊紀錄。
+
+## 教育與技能
+
+| 期間 | 學歷 |
+| --- | --- |
+| 2022-2026 | 國立陽明交通大學電機工程博士候選人 |
+| 2020-2022 | 國立陽明交通大學生醫工程碩士 |
+| 2016-2020 | 國立宜蘭大學生物機電工程學士 |
+
+其他技術範圍包含 **TinyML、感測資料處理、特徵萃取、LabVIEW、LVGL、Raspberry Pi、機構／CAD 設計與微流體平台設計**。語言：中文、英文、基礎日文。
+
+## 目前方向
+
+- 建立可靠、低功耗的多裝置穿戴式感測流程。
+- 整合生理訊號、電化學、微流體與影像資料，支援研究應用。
+- 開發附可重現驗證流程的 FPGA 控制與可靠度模組。
+- 改進微重力模擬實驗的閉迴路運動平台。
+
+聯絡：**[chen861019@gmail.com](mailto:chen861019@gmail.com)**。完整作品集：[中文版](https://chen861019.github.io/peian-chen/) · [English](https://chen861019.github.io/peian-chen/en/)。
