@@ -68,39 +68,41 @@
 
 ## 技術能力
 
+以下以專案中的實作能力為主，並列出代表性工具與平台。
+
 ### 硬體與數位設計
 
-- **FPGA／RTL：** Verilog／Verilog-2001、Intel/Altera Quartus、Qsys／Platform Designer、DE1-SoC、HPS-FPGA 整合
-- **數位邏輯與驗證：** 組合與循序邏輯、FSM、RAM／ROM、簡易處理器、Questa／ModelSim、波形分析、自動檢查式 testbench
-- **PCB 設計：** KiCad 電路圖繪製與 PCB 佈線
-- **硬體整合：** 感測器、攝影模組、幫浦、閥、馬達回授及機構／CAD 整合
+- **FPGA／RTL 設計：** 數位邏輯實作與 SoC 周邊整合，使用 Verilog、Quartus、Qsys／Platform Designer，具 DE1-SoC 專案經驗
+- **數位驗證：** 測試平台開發、波形除錯、狀態控制與資料路徑邏輯的功能驗證，使用 Questa／ModelSim
+- **電路與 PCB 設計：** 使用 KiCad 進行電路圖繪製與 PCB 佈線
+- **硬體與系統整合：** 軟硬體協同設計、子系統整合與實驗系統開發
 
 ### 嵌入式韌體與感測
 
-- **開發平台：** Nordic nRF52840／nRF54L15、ESP32／ESP32-S3、Arduino 相容開發板、Raspberry Pi
-- **韌體開發：** C/C++、Zephyr RTOS／nRF Connect SDK、Arduino framework、PlatformIO、LVGL 裝置介面
-- **通訊與介面：** BLE 廣播與 GATT、裝置識別、OTA／DFU 整合、I2C、SPI、UART、microSD 紀錄
-- **低功耗感測：** 週期量測、裝置歷史資料保存、電源狀態控制、溫度校正與功耗量測
+- **嵌入式平台開發：** 微控制器與單板電腦的裝置韌體及周邊整合，實作平台包含 Nordic nRF、ESP32、Arduino 相容開發板與 Raspberry Pi
+- **韌體開發：** C/C++ 韌體、事件驅動控制、狀態機與嵌入式操作介面，使用過 Zephyr／nRF Connect SDK、Arduino、PlatformIO 與 LVGL
+- **裝置通訊：** 無線通訊、協定整合與裝置資料交換，具 BLE／GATT、OTA／DFU、I2C、SPI 與 UART 實作經驗
+- **低功耗感測：** 量測排程、資料紀錄與保存、電源狀態管理、校正與實測評估
 
 ### 軟體開發與資料整合
 
-- **程式語言：** C/C++、Python、Kotlin、JavaScript、HTML、CSS
-- **Android／Wear OS：** Jetpack Compose、ViewModel、Kotlin coroutines／Flow、BLE 用戶端開發、Samsung Health Sensor SDK 整合
-- **資料儲存與同步：** Room／SQLite、WorkManager、Firebase Authentication／Realtime Database、離線儲存、雲端同步
-- **網頁與桌面應用：** Flask 研究儀表板、Node.js、MapLibre GL JS、GitHub Pages、PyQt5 分析介面
+- **程式開發：** 使用 C/C++、Python、Kotlin 與 JavaScript 開發韌體、應用程式與分析工具，並以 HTML／CSS 建立網頁介面
+- **行動應用：** 裝置連動的 Android／Wear OS 應用、介面狀態管理與非同步資料處理，使用 Jetpack Compose、ViewModel、coroutines／Flow 與感測 SDK
+- **資料儲存與同步：** 離線儲存、背景處理、身分驗證與裝置到雲端的資料流程，使用 Room／SQLite、WorkManager 與 Firebase
+- **網頁與桌面應用：** 互動式儀表板、資料視覺化與分析介面，具 Flask、Node.js、MapLibre GL JS、PyQt5 與 GitHub Pages 專案經驗
 
 ### 資料分析與生物影像
 
-- **科學運算：** NumPy、pandas、SciPy、Matplotlib、OpenCV、scikit-image
-- **影像分析：** 前處理、分割、運動追蹤、影像配準、時間序列分析、特徵萃取
-- **研究資料流程：** LabVIEW、感測資料擷取、實驗視覺化、人工標註、分析結果比對
+- **科學運算：** 數值處理、時間序列分析、特徵萃取與視覺化，使用 Python 科學運算套件，包含 NumPy、pandas、SciPy 與 Matplotlib
+- **影像分析：** 生物實驗影像處理流程，包含前處理、分割、配準與運動分析，使用 OpenCV 與 scikit-image
+- **研究資料流程：** 資料擷取、標註、視覺化與分析結果比對，具 Python 與 LabVIEW 使用經驗
 
 ### 研究系統整合與開發流程
 
-- **量測與儀器：** 穿戴式生醫感測、EmStat Pico／MethodSCRIPT 電化學擷取、微流體幫浦與閥控制、生物取像
-- **運動控制：** PID 回授控制、多軸運動、Random Positioning Machine 系統整合
-- **開發與除錯：** Git／GitHub、Gradle、GCC、序列埠紀錄、Android Logcat、韌體與應用整合測試
-- **文件與驗證：** 可重現測試流程、技術 Markdown、GitHub Actions 靜態網站發布，分別記錄模擬、建置與實機量測結果
+- **研究儀器開發：** 生醫與生物實驗的量測及控制系統開發，應用經驗涵蓋穿戴式感測、電化學、微流體與影像系統
+- **運動與回授控制：** 閉迴路控制與多軸系統整合，具 PID 與 Random Positioning Machine 專案經驗
+- **開發與除錯：** 版本控制、建置流程、依執行紀錄追查問題與跨層整合測試，使用工具包含 Git、Gradle、GCC、序列埠除錯與 Android Logcat
+- **文件與驗證：** 可重現測試流程、技術文件與自動化發布流程，分別記錄模擬、建置與實機量測結果
 
 ## 目前方向
 

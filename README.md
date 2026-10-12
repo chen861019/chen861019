@@ -78,39 +78,41 @@ Languages: Chinese, English, and basic Japanese.
 
 ## Technical Skills
 
+Selected capabilities and representative tools from my project work.
+
 ### Hardware & Digital Design
 
-- **FPGA / RTL:** Verilog / Verilog-2001, Intel/Altera Quartus, Qsys / Platform Designer, DE1-SoC, and HPS-FPGA integration
-- **Digital logic & verification:** combinational and sequential logic, FSMs, RAM/ROM, simple processors, Questa/ModelSim, waveform analysis, and self-checking testbenches
-- **PCB design:** KiCad schematic capture and PCB layout
-- **Hardware integration:** sensors, cameras, pumps, valves, motor feedback, and mechanical/CAD integration
+- **FPGA / RTL Design:** digital logic implementation and SoC peripheral integration using Verilog, Quartus, and Qsys / Platform Designer, with DE1-SoC project experience
+- **Digital Verification:** testbench development, waveform-based debugging, and functional verification of stateful and datapath logic using Questa/ModelSim
+- **Circuit & PCB Design:** schematic capture and PCB layout using KiCad
+- **Hardware & System Integration:** hardware-software co-design, subsystem integration, and experimental system development
 
 ### Embedded Firmware & Sensing
 
-- **Platforms:** Nordic nRF52840 / nRF54L15, ESP32 / ESP32-S3, Arduino-compatible boards, and Raspberry Pi
-- **Firmware:** C/C++, Zephyr RTOS / nRF Connect SDK, Arduino framework, PlatformIO, and LVGL device interfaces
-- **Connectivity & interfaces:** BLE advertising and GATT, device identification, OTA/DFU integration, I2C, SPI, UART, and microSD logging
-- **Low-power sensing:** periodic acquisition, persistent device history, power-state control, temperature calibration, and power-consumption measurement
+- **Embedded Platform Development:** device firmware and peripheral integration across microcontroller and single-board-computer platforms, including Nordic nRF, ESP32, Arduino-compatible boards, and Raspberry Pi
+- **Firmware Development:** C/C++ firmware, event-driven control, state machines, and embedded user interfaces; experience with Zephyr / nRF Connect SDK, Arduino, PlatformIO, and LVGL
+- **Device Connectivity:** wireless communication, protocol integration, and device data exchange, with BLE/GATT, OTA/DFU, I2C, SPI, and UART project experience
+- **Low-Power Sensing:** acquisition scheduling, persistent data logging, power-state management, calibration, and measurement-based evaluation
 
 ### Software & Data Integration
 
-- **Languages:** C/C++, Python, Kotlin, JavaScript, HTML, and CSS
-- **Android / Wear OS:** Jetpack Compose, ViewModel, Kotlin coroutines / Flow, BLE client development, and Samsung Health Sensor SDK integration
-- **Persistence & synchronization:** Room / SQLite, WorkManager, Firebase Authentication / Realtime Database, offline storage, and cloud synchronization
-- **Web & desktop:** Flask research dashboards, Node.js, MapLibre GL JS, GitHub Pages, and PyQt5 analysis interfaces
+- **Programming:** firmware, application, and analysis-tool development using C/C++, Python, Kotlin, and JavaScript; web interface development with HTML/CSS
+- **Mobile Applications:** device-connected Android and Wear OS applications, UI state management, and asynchronous data processing using Jetpack Compose, ViewModel, coroutines / Flow, and sensor SDKs
+- **Data Persistence & Synchronization:** offline storage, background processing, authentication, and device-to-cloud data flows using Room / SQLite, WorkManager, and Firebase
+- **Web & Desktop Applications:** interactive dashboards, data visualization, and analysis interfaces, with Flask, Node.js, MapLibre GL JS, PyQt5, and GitHub Pages project experience
 
 ### Data Analysis & Biological Imaging
 
-- **Scientific Python:** NumPy, pandas, SciPy, Matplotlib, OpenCV, and scikit-image
-- **Image analysis:** preprocessing, segmentation, motion tracking, image registration, time-series analysis, and feature extraction
-- **Research workflows:** LabVIEW, sensor-data acquisition, experimental visualization, manual annotation, and comparison of analysis results
+- **Scientific Computing:** numerical processing, time-series analysis, feature extraction, and visualization using the Python scientific stack, including NumPy, pandas, SciPy, and Matplotlib
+- **Image Analysis:** image-processing workflows for biological experiments, including preprocessing, segmentation, registration, and motion analysis using OpenCV and scikit-image
+- **Research Data Workflows:** acquisition, annotation, visualization, and analysis-result comparison, with Python and LabVIEW experience
 
 ### Research Systems & Engineering Workflow
 
-- **Instrumentation:** wearable biosensing, electrochemical acquisition with EmStat Pico / MethodSCRIPT, microfluidic pump/valve control, and biological imaging
-- **Motion control:** PID feedback control, multi-axis motion, and Random Positioning Machine integration
-- **Development & debugging:** Git/GitHub, Gradle, GCC, serial logs, Android Logcat, and firmware/application integration testing
-- **Documentation & validation:** reproducible test procedures, technical Markdown, GitHub Actions for static-site publishing, and separate records for simulation, builds, and bench measurements
+- **Research Instrumentation:** measurement and control system development for biomedical and biological experiments, with wearable sensing, electrochemistry, microfluidics, and imaging applications
+- **Motion & Feedback Control:** closed-loop control and multi-axis system integration, with PID and Random Positioning Machine project experience
+- **Development & Debugging:** version control, build workflows, log-based diagnosis, and cross-layer integration testing; tools include Git, Gradle, GCC, serial diagnostics, and Android Logcat
+- **Documentation & Validation:** reproducible test procedures, technical documentation, and automated publishing workflows, with simulation, build results, and bench measurements documented separately
 
 ## Current Direction
 
