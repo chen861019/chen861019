@@ -2,7 +2,7 @@
 
 > 嵌入式生醫感測、研究儀器與 FPGA 系統
 
-[English](README.md) · [繁體中文](README.zh-TW.md) · [個人網站／中文](https://chen861019.github.io/peian-chen/) · [個人網站／英文](https://chen861019.github.io/peian-chen/en/) · [Email](mailto:chen861019@gmail.com)
+[English](README.md) · [繁體中文](README.zh-TW.md) · [個人網站／中文](https://peianchen.github.io/peian-chen/) · [個人網站／英文](https://peianchen.github.io/peian-chen/en/) · [Email](mailto:chen861019@gmail.com)
 
 我是陳沛安，目前就讀國立陽明交通大學電機工程博士班，主要投入感測系統與研究設備開發。我的工作從實驗中的量測與控制需求出發，包含裝置韌體、通訊介面、操作軟體與資料處理，讓研究構想具備實際執行與驗證的條件。
 
@@ -30,15 +30,15 @@
 
 | 專案 | 說明 | 技術 |
 | --- | --- | --- |
-| [ThermoPatch](https://github.com/chen861019/ThermoPatch) | 多節點 BLE 體表溫度平台，整合 Android 視覺化、Firebase 同步與 OTA 韌體更新 | Kotlin、Compose、BLE、Firebase、nRF52840 |
-| [SpaceCellCam](https://github.com/chen861019/SpaceCellCam) | ESP32-S3／OV5640 定時高解析生物取像，包含 LED 輔助照明與 microSD 紀錄 | C++、Python、ESP32-S3、OV5640 |
-| [Space BMC Core RTL](https://github.com/chen861019/Space-BMC-Core-SEMC) | 參數化 Verilog-2001 心跳逾時監測核心，附週期邊界、清除與重新計時檢查 | Verilog、Questa、FPGA |
-| [nRF54L15 MLX90614](https://github.com/chen861019/nRF54L15_MLX90614) | XIAO nRF54L15 紅外線溫度感測韌體與低功耗分析 | C、Zephyr、I2C、BLE |
-| [Galaxy Watch Sensor Monitor](https://github.com/chen861019/GalaxyWatchSensorMonitor) | Samsung 手錶皮膚溫度擷取與研究型感測應用 | Kotlin、Wear OS、Samsung Health Sensor SDK |
-| [資料結構與圖論演算法](https://github.com/chen861019/NYCU-Data-Structures-Graph-Algorithms) | 九份 C 作業：排序、BFS、稀疏矩陣、運算式、Segment Tree、Huffman、MST 與最短路徑，附結果與限制說明 | C、GCC、Python、Graphviz |
-| [台北公車 Live](https://github.com/chen861019/taipei-bus-live) | 開發中的公車即時地圖，包含路線／車牌搜尋、標記聚合、路線匹配與官方快照的短時間位置推估 | JavaScript、Node.js、MapLibre GL JS |
+| [ThermoPatch](https://github.com/peianchen/ThermoPatch) | 多節點 BLE 體表溫度平台，整合 Android 視覺化、Firebase 同步與 OTA 韌體更新 | Kotlin、Compose、BLE、Firebase、nRF52840 |
+| [SpaceCellCam](https://github.com/peianchen/SpaceCellCam) | ESP32-S3／OV5640 定時高解析生物取像，包含 LED 輔助照明與 microSD 紀錄 | C++、Python、ESP32-S3、OV5640 |
+| [Space BMC Core RTL](https://github.com/peianchen/Space-BMC-Core-SEMC) | 參數化 Verilog-2001 心跳逾時監測核心，附週期邊界、清除與重新計時檢查 | Verilog、Questa、FPGA |
+| [nRF54L15 MLX90614](https://github.com/peianchen/nRF54L15_MLX90614) | XIAO nRF54L15 紅外線溫度感測韌體與低功耗分析 | C、Zephyr、I2C、BLE |
+| [Galaxy Watch Sensor Monitor](https://github.com/peianchen/GalaxyWatchSensorMonitor) | Samsung 手錶皮膚溫度擷取與研究型感測應用 | Kotlin、Wear OS、Samsung Health Sensor SDK |
+| [資料結構與圖論演算法](https://github.com/peianchen/NYCU-Data-Structures-Graph-Algorithms) | 九份 C 作業：排序、BFS、稀疏矩陣、運算式、Segment Tree、Huffman、MST 與最短路徑，附結果與限制說明 | C、GCC、Python、Graphviz |
+| [台北公車 Live](https://github.com/peianchen/taipei-bus-live) | 開發中的公車即時地圖，包含路線／車牌搜尋、標記聚合、路線匹配與官方快照的短時間位置推估 | JavaScript、Node.js、MapLibre GL JS |
 
-**課程實作典藏：** [NYCU-AFPGA](https://github.com/chen861019/NYCU-AFPGA-Labs) 整理八組 Verilog／DE1-SoC 實驗，涵蓋組合邏輯、FSM、RAM、簡易處理器與 HPS/Qsys 整合。目前 repository 為 **private**，須具存取權限才能查看。
+**課程實作典藏：** [NYCU-AFPGA](https://github.com/peianchen/NYCU-AFPGA-Labs) 整理八組 Verilog／DE1-SoC 實驗，涵蓋組合邏輯、FSM、RAM、簡易處理器與 HPS/Qsys 整合。目前 repository 為 **private**，須具存取權限才能查看。
 
 ## 研究經驗
 
@@ -54,7 +54,7 @@
 - **2021：** 生醫創意構想競賽佳作。
 - **2017-2019：** 機器人與 AIoT 競賽經驗，包括 AIoT 智慧機器人、愚公移山與物聯網智慧控制社群成果發表第一名。
 
-[完整網站](https://chen861019.github.io/peian-chen/#research) 保留各項競賽明細與 *Biosensors & Bioelectronics*、*Sensors and Actuators A* 期刊紀錄。
+[完整網站](https://peianchen.github.io/peian-chen/#research) 保留各項競賽明細與 *Biosensors & Bioelectronics*、*Sensors and Actuators A* 期刊紀錄。
 
 ## 教育背景
 
@@ -111,4 +111,4 @@
 - 開發附可重現驗證流程的 FPGA 控制與可靠度模組。
 - 改進微重力模擬實驗的閉迴路運動平台。
 
-聯絡：**[chen861019@gmail.com](mailto:chen861019@gmail.com)**。完整作品集：[中文版](https://chen861019.github.io/peian-chen/) · [English](https://chen861019.github.io/peian-chen/en/)。
+聯絡：**[chen861019@gmail.com](mailto:chen861019@gmail.com)**。完整作品集：[中文版](https://peianchen.github.io/peian-chen/) · [English](https://peianchen.github.io/peian-chen/en/)。

@@ -2,7 +2,7 @@
 
 > Embedded biomedical sensing, research instrumentation, and FPGA systems
 
-[English](README.md) · [繁體中文](README.zh-TW.md) · [Portfolio / 中文](https://chen861019.github.io/peian-chen/) · [Portfolio / English](https://chen861019.github.io/peian-chen/en/) · [Email](mailto:chen861019@gmail.com)
+[English](README.md) · [繁體中文](README.zh-TW.md) · [Portfolio / 中文](https://peianchen.github.io/peian-chen/) · [Portfolio / English](https://peianchen.github.io/peian-chen/en/) · [Email](mailto:chen861019@gmail.com)
 
 I am Pei An Chen, a **Ph.D. student in Electrical Engineering at National Yang Ming Chiao Tung University (NYCU)**, Taiwan. I develop sensing systems and research equipment around the measurement and control needs of experiments. My work includes device firmware, communication interfaces, application software, and data processing to turn research ideas into systems that can be operated and evaluated.
 
@@ -40,15 +40,15 @@ I focus on how the parts work together: acquiring and preserving data, controlli
 
 | Project | Description | Technologies |
 | --- | --- | --- |
-| [ThermoPatch](https://github.com/chen861019/ThermoPatch) | Multi-sensor BLE body-temperature platform with Android visualization, Firebase synchronization, and OTA firmware updates | Kotlin, Jetpack Compose, BLE, Firebase, nRF52840 |
-| [SpaceCellCam](https://github.com/chen861019/SpaceCellCam) | ESP32-S3 and OV5640 platform for periodic, LED-assisted high-resolution biological imaging | C++, Python, ESP32-S3, OV5640, microSD |
-| [Space BMC Core RTL](https://github.com/chen861019/Space-BMC-Core-SEMC) | Parameterized Verilog-2001 heartbeat timeout monitor with cycle-accurate boundary, clearing, and restart checks | Verilog, Questa, FPGA |
-| [nRF54L15 MLX90614](https://github.com/chen861019/nRF54L15_MLX90614) | Zephyr/NCS infrared-temperature firmware and low-power analysis for the XIAO nRF54L15 | C, Zephyr, I2C, BLE |
-| [Galaxy Watch Sensor Monitor](https://github.com/chen861019/GalaxyWatchSensorMonitor) | Wear OS application for Samsung skin-temperature acquisition and sensor research | Kotlin, Wear OS, Samsung Health Sensor SDK |
-| [Data Structures & Graph Algorithms](https://github.com/chen861019/NYCU-Data-Structures-Graph-Algorithms) | Nine C assignments covering sorting, BFS, sparse matrices, expression evaluation, segment trees, Huffman coding, MST, and shortest paths, with documented results and limitations | C, GCC, Python, Graphviz |
-| [Taipei Bus Live](https://github.com/chen861019/taipei-bus-live) | Beta real-time bus map with route and vehicle search, marker clustering, route matching, and short-term position estimation from official snapshots | JavaScript, Node.js, MapLibre GL JS |
+| [ThermoPatch](https://github.com/peianchen/ThermoPatch) | Multi-sensor BLE body-temperature platform with Android visualization, Firebase synchronization, and OTA firmware updates | Kotlin, Jetpack Compose, BLE, Firebase, nRF52840 |
+| [SpaceCellCam](https://github.com/peianchen/SpaceCellCam) | ESP32-S3 and OV5640 platform for periodic, LED-assisted high-resolution biological imaging | C++, Python, ESP32-S3, OV5640, microSD |
+| [Space BMC Core RTL](https://github.com/peianchen/Space-BMC-Core-SEMC) | Parameterized Verilog-2001 heartbeat timeout monitor with cycle-accurate boundary, clearing, and restart checks | Verilog, Questa, FPGA |
+| [nRF54L15 MLX90614](https://github.com/peianchen/nRF54L15_MLX90614) | Zephyr/NCS infrared-temperature firmware and low-power analysis for the XIAO nRF54L15 | C, Zephyr, I2C, BLE |
+| [Galaxy Watch Sensor Monitor](https://github.com/peianchen/GalaxyWatchSensorMonitor) | Wear OS application for Samsung skin-temperature acquisition and sensor research | Kotlin, Wear OS, Samsung Health Sensor SDK |
+| [Data Structures & Graph Algorithms](https://github.com/peianchen/NYCU-Data-Structures-Graph-Algorithms) | Nine C assignments covering sorting, BFS, sparse matrices, expression evaluation, segment trees, Huffman coding, MST, and shortest paths, with documented results and limitations | C, GCC, Python, Graphviz |
+| [Taipei Bus Live](https://github.com/peianchen/taipei-bus-live) | Beta real-time bus map with route and vehicle search, marker clustering, route matching, and short-term position estimation from official snapshots | JavaScript, Node.js, MapLibre GL JS |
 
-**Coursework archive:** [NYCU-AFPGA](https://github.com/chen861019/NYCU-AFPGA-Labs) contains eight documented Verilog and DE1-SoC labs, from combinational logic and FSMs to RAM, processors, and HPS/Qsys integration. The repository is currently **private**; access is restricted.
+**Coursework archive:** [NYCU-AFPGA](https://github.com/peianchen/NYCU-AFPGA-Labs) contains eight documented Verilog and DE1-SoC labs, from combinational logic and FSMs to RAM, processors, and HPS/Qsys integration. The repository is currently **private**; access is restricted.
 
 ## Research Experience
 
@@ -64,7 +64,7 @@ I focus on how the parts work together: acquiring and preserving data, controlli
 - **2021:** Honorable mention in a biomedical innovation concept competition.
 - **2017-2019:** Robotics and AIoT competition experience, including first-place results in AIoT robotics, Moving Mountains, and an IoT intelligent-control community showcase.
 
-The [full portfolio](https://chen861019.github.io/peian-chen/en/#research) retains the detailed competition archive and journal records for *Biosensors & Bioelectronics* and *Sensors and Actuators A*.
+The [full portfolio](https://peianchen.github.io/peian-chen/en/#research) retains the detailed competition archive and journal records for *Biosensors & Bioelectronics* and *Sensors and Actuators A*.
 
 ## Education
 
@@ -121,6 +121,6 @@ Selected capabilities and representative tools from my project work.
 - Developing FPGA control and reliability modules with reproducible verification
 - Improving closed-loop motion platforms for reduced-gravity experiments
 
-Contact: **[chen861019@gmail.com](mailto:chen861019@gmail.com)**. See the [Chinese website](https://chen861019.github.io/peian-chen/) or [English website](https://chen861019.github.io/peian-chen/en/) for the complete portfolio.
+Contact: **[chen861019@gmail.com](mailto:chen861019@gmail.com)**. See the [Chinese website](https://peianchen.github.io/peian-chen/) or [English website](https://peianchen.github.io/peian-chen/en/) for the complete portfolio.
 
-![Top languages](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=chen861019&theme=github)
+![Top languages](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=peianchen&theme=github)
