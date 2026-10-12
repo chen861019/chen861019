@@ -56,7 +56,7 @@
 
 [完整網站](https://chen861019.github.io/peian-chen/#research) 保留各項競賽明細與 *Biosensors & Bioelectronics*、*Sensors and Actuators A* 期刊紀錄。
 
-## 教育與技能
+## 教育背景
 
 | 期間 | 學歷 |
 | --- | --- |
@@ -64,7 +64,43 @@
 | 2020-2022 | 國立陽明交通大學生醫工程碩士 |
 | 2016-2020 | 國立宜蘭大學生物機電工程學士 |
 
-其他技術範圍包含 **TinyML、感測資料處理、特徵萃取、LabVIEW、LVGL、Raspberry Pi、機構／CAD 設計與微流體平台設計**。語言：中文、英文、基礎日文。
+語言：中文、英文、基礎日文。
+
+## 技術能力
+
+### 硬體與數位設計
+
+- **FPGA／RTL：** Verilog／Verilog-2001、Intel/Altera Quartus、Qsys／Platform Designer、DE1-SoC、HPS-FPGA 整合
+- **數位邏輯與驗證：** 組合與循序邏輯、FSM、RAM／ROM、簡易處理器、Questa／ModelSim、波形分析、自動檢查式 testbench
+- **PCB 設計：** KiCad 電路圖繪製與 PCB 佈線
+- **硬體整合：** 感測器、攝影模組、幫浦、閥、馬達回授及機構／CAD 整合
+
+### 嵌入式韌體與感測
+
+- **開發平台：** Nordic nRF52840／nRF54L15、ESP32／ESP32-S3、Arduino 相容開發板、Raspberry Pi
+- **韌體開發：** C/C++、Zephyr RTOS／nRF Connect SDK、Arduino framework、PlatformIO、LVGL 裝置介面
+- **通訊與介面：** BLE 廣播與 GATT、裝置識別、OTA／DFU 整合、I2C、SPI、UART、microSD 紀錄
+- **低功耗感測：** 週期量測、裝置歷史資料保存、電源狀態控制、溫度校正與功耗量測
+
+### 軟體開發與資料整合
+
+- **程式語言：** C/C++、Python、Kotlin、JavaScript、HTML、CSS
+- **Android／Wear OS：** Jetpack Compose、ViewModel、Kotlin coroutines／Flow、BLE 用戶端開發、Samsung Health Sensor SDK 整合
+- **資料儲存與同步：** Room／SQLite、WorkManager、Firebase Authentication／Realtime Database、離線儲存、雲端同步
+- **網頁與桌面應用：** Flask 研究儀表板、Node.js、MapLibre GL JS、GitHub Pages、PyQt5 分析介面
+
+### 資料分析與生物影像
+
+- **科學運算：** NumPy、pandas、SciPy、Matplotlib、OpenCV、scikit-image
+- **影像分析：** 前處理、分割、運動追蹤、影像配準、時間序列分析、特徵萃取
+- **研究資料流程：** LabVIEW、感測資料擷取、實驗視覺化、人工標註、分析結果比對
+
+### 研究系統整合與開發流程
+
+- **量測與儀器：** 穿戴式生醫感測、EmStat Pico／MethodSCRIPT 電化學擷取、微流體幫浦與閥控制、生物取像
+- **運動控制：** PID 回授控制、多軸運動、Random Positioning Machine 系統整合
+- **開發與除錯：** Git／GitHub、Gradle、GCC、序列埠紀錄、Android Logcat、韌體與應用整合測試
+- **文件與驗證：** 可重現測試流程、技術 Markdown、GitHub Actions 靜態網站發布，分別記錄模擬、建置與實機量測結果
 
 ## 目前方向
 

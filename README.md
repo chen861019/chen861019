@@ -66,7 +66,7 @@ I focus on how the parts work together: acquiring and preserving data, controlli
 
 The [full portfolio](https://chen861019.github.io/peian-chen/en/#research) retains the detailed competition archive and journal records for *Biosensors & Bioelectronics* and *Sensors and Actuators A*.
 
-## Education & Skills
+## Education
 
 | Period | Education |
 | --- | --- |
@@ -74,7 +74,43 @@ The [full portfolio](https://chen861019.github.io/peian-chen/en/#research) retai
 | 2020-2022 | Master's degree, Biomedical Engineering, National Yang Ming Chiao Tung University |
 | 2016-2020 | Bachelor's degree, Biomechatronic Engineering, National Ilan University |
 
-Additional areas: **TinyML, sensor-data processing, feature extraction, LabVIEW, LVGL, Raspberry Pi, mechanical/CAD design, and microfluidic platform design**. Languages: Chinese, English, and basic Japanese.
+Languages: Chinese, English, and basic Japanese.
+
+## Technical Skills
+
+### Hardware & Digital Design
+
+- **FPGA / RTL:** Verilog / Verilog-2001, Intel/Altera Quartus, Qsys / Platform Designer, DE1-SoC, and HPS-FPGA integration
+- **Digital logic & verification:** combinational and sequential logic, FSMs, RAM/ROM, simple processors, Questa/ModelSim, waveform analysis, and self-checking testbenches
+- **PCB design:** KiCad schematic capture and PCB layout
+- **Hardware integration:** sensors, cameras, pumps, valves, motor feedback, and mechanical/CAD integration
+
+### Embedded Firmware & Sensing
+
+- **Platforms:** Nordic nRF52840 / nRF54L15, ESP32 / ESP32-S3, Arduino-compatible boards, and Raspberry Pi
+- **Firmware:** C/C++, Zephyr RTOS / nRF Connect SDK, Arduino framework, PlatformIO, and LVGL device interfaces
+- **Connectivity & interfaces:** BLE advertising and GATT, device identification, OTA/DFU integration, I2C, SPI, UART, and microSD logging
+- **Low-power sensing:** periodic acquisition, persistent device history, power-state control, temperature calibration, and power-consumption measurement
+
+### Software & Data Integration
+
+- **Languages:** C/C++, Python, Kotlin, JavaScript, HTML, and CSS
+- **Android / Wear OS:** Jetpack Compose, ViewModel, Kotlin coroutines / Flow, BLE client development, and Samsung Health Sensor SDK integration
+- **Persistence & synchronization:** Room / SQLite, WorkManager, Firebase Authentication / Realtime Database, offline storage, and cloud synchronization
+- **Web & desktop:** Flask research dashboards, Node.js, MapLibre GL JS, GitHub Pages, and PyQt5 analysis interfaces
+
+### Data Analysis & Biological Imaging
+
+- **Scientific Python:** NumPy, pandas, SciPy, Matplotlib, OpenCV, and scikit-image
+- **Image analysis:** preprocessing, segmentation, motion tracking, image registration, time-series analysis, and feature extraction
+- **Research workflows:** LabVIEW, sensor-data acquisition, experimental visualization, manual annotation, and comparison of analysis results
+
+### Research Systems & Engineering Workflow
+
+- **Instrumentation:** wearable biosensing, electrochemical acquisition with EmStat Pico / MethodSCRIPT, microfluidic pump/valve control, and biological imaging
+- **Motion control:** PID feedback control, multi-axis motion, and Random Positioning Machine integration
+- **Development & debugging:** Git/GitHub, Gradle, GCC, serial logs, Android Logcat, and firmware/application integration testing
+- **Documentation & validation:** reproducible test procedures, technical Markdown, GitHub Actions for static-site publishing, and separate records for simulation, builds, and bench measurements
 
 ## Current Direction
 
